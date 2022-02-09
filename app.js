@@ -8,6 +8,7 @@ const client = redis.createClient( {
     password: 'p5917f69b10d2df9e1c3e5188530a3b09dd80aab3f74c60f083b52e1b84ca2cb1'
 });
 
+client.connect();
 client.on('connect',function() {
     console.log('Connection Established');
 });
