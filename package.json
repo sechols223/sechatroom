@@ -18,6 +18,7 @@
   "homepage": "https://github.com/sechols223/sechatroom#readme",
   "dependencies": {
     "express": "^4.17.2",
-    "redis": "^4.0.3"
+    "redis": "^4.0.3",
+    "socket.io": "^4.4.1"
   }
 }

@@ -6,7 +6,7 @@ const client = redis.createClient( {
 });
 
 client.on('error', err => {
-    console.log("Error " + err);
+    console.log('Error ' + err);
 });
 
 client.set('foo', 'bar', (err, reply) => {
