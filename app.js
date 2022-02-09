@@ -10,7 +10,7 @@ app.use(express.static('public/db'));
 app.use(express.static('public/socket'));
 
 app.get('/', (req, res) => {
-    res.send('Hello World!')
+    res.sendFile('public/index.html');
 })
 
 app.listen(port, () => {
