@@ -6,7 +6,7 @@ const client = redis.createClient( {
 });
 
 client.connect()
-client.on('connect',() => {
+client.on('connect',function() {
     console.log('Connection Established');
 });
 
