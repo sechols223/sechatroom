@@ -10,7 +10,7 @@ app.use(express.static('public/db'));
 app.use(express.static('public/socket'));
 
 app.get('/', (req, res) => {
-    res.sendFile('public/index.html');
+    res.sendFile('C:\\Users\\Samuel\\WebstormProjects\\sechatroom\\public\\index.html');
 })
 
 app.listen(port, () => {
