@@ -7,7 +7,7 @@ const client = redis.createClient({
         rejectUnauthorized: false
     }
 });
-
+console.log("db file ");
 client.connect();
 client.on('connect',function() {
     console.log('Connection Established');
