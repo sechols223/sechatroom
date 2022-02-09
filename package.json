@@ -1,0 +1,22 @@
+{
+  "name": "sechatroom",
+  "version": "0.0.0",
+  "description": "An online chatroom",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sechols223/sechatroom.git"
+  },
+  "author": "Samuel Echols",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sechols223/sechatroom/issues"
+  },
+  "homepage": "https://github.com/sechols223/sechatroom#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
