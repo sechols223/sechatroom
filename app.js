@@ -13,7 +13,7 @@ const { Server } = require("socket.io");
 const io = new Server(server);
 
 app.get('/', (req, res) => {
-    res.sendFile(__dirname + '/public/pages/login.html');
+    res.sendFile(__dirname + 'public/pages/login.html');
 })
 
 io.on('connection', (socket) => {
@@ -23,5 +23,5 @@ io.on('connection', (socket) => {
 });
 
 server.listen(port, () => {
-    console.log('listening on port: &{port}');
+    console.log('listening on port: ${port}');
 });
