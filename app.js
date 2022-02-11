@@ -4,12 +4,8 @@ const port = process.env.PORT || 3000;
 
 //----------
 //Loading static files
-app.use(express.static('public'));
-app.use('/public', express.static('css'));
-app.use('/public', express.static('imgs'));
-app.use('/public', express.static('js'));
-app.use('/public', express.static('pages'));
-app.use('/public', express.static('socket'));
+app.use(express.static(path.join(__dirname,'public')));
+
 //----------
 
 const http = require('http');
